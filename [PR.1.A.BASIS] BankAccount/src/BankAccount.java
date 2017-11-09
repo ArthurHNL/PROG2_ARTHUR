@@ -16,15 +16,14 @@ public class BankAccount {
 	public int getCreditLevel() {
 		return creditLevel;
 	}
-	public BankAccount(String firstOwnerName, int firstCreditLevel) {
+	public BankAccount(String firstOwnerName, int firstCreditLevel, int secCode) {
 		this.setOwnerName(firstOwnerName);
 		this.setCreditLevel(firstCreditLevel);
 		Random rnd = new Random();
-		int sc = rnd.nextInt(10000);
 		int an = rnd.nextInt(900000) + 100000;
 		this.accountNumber = an;
-		this.securityCode = sc;
-		System.out.println("Created bank account with number: " + an + "and code: " + sc);
+		this.securityCode = secCode;
+		System.out.println("Created bank account with number: " + an);
 	}
 	private void setCreditLevel(int cl) {
 		this.creditLevel = cl;
