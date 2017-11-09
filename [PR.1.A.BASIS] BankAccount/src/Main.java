@@ -14,7 +14,6 @@ public class Main {
 		try {br.readLine();} catch (IOException IOe) {}
 		secCode = 0;
 		loop: while (true) {
-			clearScreen();
 			System.out.println("1 = Check balance");
 			System.out.println("2 = Withdraw");
 			System.out.println("3 = Deposit");
@@ -72,8 +71,4 @@ public class Main {
 		}
 	}
 
-	public static void clearScreen() {
-		System.out.print("\033[H\033[2J");
-		System.out.flush();
-	}
 }
