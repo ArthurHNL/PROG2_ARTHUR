@@ -3,6 +3,8 @@
 		Make and initialize a Planet array
 		Fill it with planets from our universe
 		//FOR every planet in the Planet array:
-			Call the print method on the planet
+			IF the planet is not null:
+				Call the print method on the planet
+			END IF
 		//END FOR
 		
