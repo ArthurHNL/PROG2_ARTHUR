@@ -61,7 +61,7 @@ public class ConsoleInput {
 	/**
 	 * Will get a line from the console and try to parse it as a double. Will handle
 	 * exceptions for you and if the input can not be parsed, will return the value
-	 * 76577432.
+	 * 3.14159.
 	 * @param writeExceptions
 	 *            TRUE if you want to write the exception messages to the console.
 	 * @return Parsed double from the console input
@@ -73,7 +73,7 @@ public class ConsoleInput {
 			if (writeExceptions) {
 				System.out.println("Something went wrong: " + nex.getMessage());
 			}
-			return 76577432;
+			return 3.14159;
 		}
 	}
 
