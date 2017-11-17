@@ -1,0 +1,17 @@
+//PLANET class
+	//DECLAREER VARIABELEN:
+		private String name [Min 1 karakter]
+		private int mass [> 0, if =< 0 set 1]
+		private int distanceToSun [> 0, if =< 0 set 1]
+		private boolean canHaveLife [heeft altijd een waarde]
+		private int numMoons [>= 0, if < 0 set 0]
+	//GET / SET voor alle variabelen
+	//CONSTRUCTOR die alle velden instelt m.b.v. parameters
+	//printOut method:
+		Print:
+			***[name]***
+			Mass: [mass]
+			Distance to sun: [distanceToSun]
+			Life can form on this planet: {yes if <[canHaveLife]==true> else no}
+			Number of moons: numMoons
+			***{[name].length * "*"}***

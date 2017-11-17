@@ -1,0 +1,4 @@
+VOOR ieder getal uit de array:
+	Verhoog het getal met 3
+	ALS het getal groter is als 10:
+		Zet de waarde van het getal op 1

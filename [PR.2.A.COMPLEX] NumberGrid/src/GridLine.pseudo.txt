@@ -1,0 +1,14 @@
+INSTANCE VARS:
+	GridNumber Array
+	yPos
+METHODES:
+	CONSTRUCTOR:
+		PARAMETERS:
+			int yPos
+		Initialisieer de GridNumber array met een lengte van 5
+		VOOR iedere plek in de GridNumber array:
+			Maak een nieuw GridNumber met yPos de yPos van de GridLine, en de xPos de counter van de loop
+			Print het nummer uit (call outputNumber)
+	IncreaseAndPrint:
+		VOOR ieder GridNumber in de array:
+			Call IncreaseAndOut

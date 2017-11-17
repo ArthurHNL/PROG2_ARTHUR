@@ -1,0 +1,5 @@
+linkWagon(Wagon): KAN een WAGON toevoegen aan wagons.
+setLocomotive(Locomotive): Kan de loc instellen op de meegegeven Locomotive
+travelTo: Kan reizen naar een bepaalde locatie
+getCurrLocation(): Kan de current location teruggeven
+setCurrLocation(RailSegment): kan de currentLocation instellen op het meegegeven RailSegment

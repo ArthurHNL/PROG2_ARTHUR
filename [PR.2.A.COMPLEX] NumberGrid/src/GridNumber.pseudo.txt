@@ -1,0 +1,17 @@
+Instance variables:
+	int number
+Constructor:
+	Stel number in op 0
+
+private increase:
+	Increase number with 1;
+private writeOut:
+	ALS number < 10:
+		OUTPUT: " 0" + number + " "
+		return;
+	ANDERS:
+		OUTPUT: " " + number + " "
+
+increaseAndWriteOut:
+	call increase;
+	call writeOut;
